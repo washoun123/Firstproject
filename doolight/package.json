@@ -1,7 +1,7 @@
 {
   "name": "doolight",
   "version": "0.1.0",
-  "homepage": "https://washoun123.github.io/Firstproject/doolight",
+  "homepage": "https://washoun123.github.io/Firstproject",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
