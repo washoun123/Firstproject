@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header{
+  background-color: #757b88;
+  height : 20px;
+  padding: 20px 20px 20px 20px;
+  position : sticky;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.NewContainer {
+  width: 50%;           /* or any width you want */
+  margin: 0 auto;        /* centers the container horizontally */   /* optional, for visibility */
+  padding: 16px;         /* optional */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-move 2s infinite linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px); /* Adjust distance as needed */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
