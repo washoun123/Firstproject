@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/Firstproject/doolight/static/css/main.8762b2d8.css",
-    "main.js": "/Firstproject/doolight/static/js/main.38b722c3.js",
+    "main.js": "/Firstproject/doolight/static/js/main.52a22779.js",
     "static/js/453.6d0a3c40.chunk.js": "/Firstproject/doolight/static/js/453.6d0a3c40.chunk.js",
     "index.html": "/Firstproject/doolight/index.html",
-    "static/media/Accueil": "/Firstproject/doolight/static/media/Accueil.bd8029709faa4cbb03a3",
     "main.8762b2d8.css.map": "/Firstproject/doolight/static/css/main.8762b2d8.css.map",
-    "main.38b722c3.js.map": "/Firstproject/doolight/static/js/main.38b722c3.js.map",
+    "main.52a22779.js.map": "/Firstproject/doolight/static/js/main.52a22779.js.map",
     "453.6d0a3c40.chunk.js.map": "/Firstproject/doolight/static/js/453.6d0a3c40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8762b2d8.css",
-    "static/js/main.38b722c3.js"
+    "static/js/main.52a22779.js"
   ]
 }
