@@ -32,7 +32,7 @@ export default function ModelViewer1() {
             zIndex: 1,
           }}
         >
-          Omor
+          Oussema
         </div>
       )}
       <Canvas camera={{ position: [0, 2, 5], fov: 100 }}>
@@ -47,7 +47,7 @@ export default function ModelViewer1() {
         </React.Suspense>
 
         {/* Camera Controls */}
-        <OrbitControls enableZoom={true} />
+        <OrbitControls enableZoom={false} />
       </Canvas>
     </div>
   );

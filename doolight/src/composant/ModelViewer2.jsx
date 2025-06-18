@@ -6,7 +6,7 @@ import { OrbitControls, useGLTF, Environment } from '@react-three/drei';
 
 function Model() {
   // Load the GLB model
-  const { scene } = useGLTF('character-c.glb'); // Replace with your model path
+  const { scene } = useGLTF('character-r.glb'); // Replace with your model path
   return <primitive object={scene} scale={1} />;
 }
 
@@ -32,7 +32,7 @@ export default function ModelViewer2() {
             zIndex: 1,
           }}
         >
-          Oussema
+          Omor
         </div>
       )}
       <Canvas camera={{ position: [0, 2, 5], fov: 100 }}>
@@ -47,7 +47,7 @@ export default function ModelViewer2() {
         </React.Suspense>
 
         {/* Camera Controls */}
-        <OrbitControls enableZoom={true} />
+        <OrbitControls enableZoom={false} />
       </Canvas>
     </div>
   );}

@@ -47,7 +47,7 @@ export default function ModelViewer() {
         </React.Suspense>
 
         {/* Camera Controls */}
-        <OrbitControls enableZoom={true} />
+        <OrbitControls enableZoom={false} />
       </Canvas>
     </div>
   );
